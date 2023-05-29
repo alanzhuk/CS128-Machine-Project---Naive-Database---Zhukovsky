@@ -5,4 +5,7 @@
 
 int main() {
   // write informal tests here
+  auto db = Database();
+  db.CreateTable("alan");
+  std::cout << db.GetTable("alan");
 }
